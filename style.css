@@ -5,19 +5,17 @@ body{
 h1{
     font-size: 50px;
     font-weight: 800;
-    width: 8.5em;
-   
-}
-h2{
-    font-size: 40px;
-    font-weight: 1000;
-        width: 8.5em;
 }
 .info{
     color: rgb(241, 162, 16);
 }
 small{
     color: rgb(209, 113, 16);
+}
+h2{
+    font-size: 40px;
+    font-weight: 1000;
+        width: 8.5em;
 }
 .flexible-container{
     display: flex;
@@ -28,9 +26,6 @@ small{
     padding-left: 10%;
 }
 
-.info-one img{
-        width: 85%; 
-}
 .link-button{
     text-decoration: none;
     padding: 10px 40px;
@@ -53,9 +48,12 @@ small{
     background-image: linear-gradient(rgb(226, 157, 8),rgb(228, 35, 9));
 }
 .middle-banner{
+    height: 550px;
     background-image: url(images/frame2.png);
     background-repeat: no-repeat;
-    
+}
+.middle-banner img{
+    height: 400px;
 }
 #headline{
 text-align: center;
@@ -70,4 +68,50 @@ font-weight: 900;
 .food-pic{
     width: 250px;
     height: 250px;
+    padding-left: 31px;
+    padding-top: 20px;
 }
+.box-shadow-item{
+    height: 500px;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px gray;
+}
+.recipe-detail{
+    padding-left: 10px;
+}
+.bonus{
+    height: 200px;
+    width: 980px;
+    border-radius: 20px;
+    margin: 80px 80px 90px ;
+     padding-left: 210px;
+     padding-top: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 40px gray;
+}
+.bonus-container{
+    box-shadow:25px gray;
+    text-align: center;
+}
+.bonus-paragraph{
+    padding-right: 2px;
+    width: 250px;
+
+}
+.bonus h2{
+ font-size:45px;
+}
+.footer-container{
+    text-align: center;
+    height: 200px;
+    background-color: rgb(10, 1, 1);
+    color: white;
+}
+.footer-container h3{
+    font-size: 25px;
+    color: grey;
+}
+
